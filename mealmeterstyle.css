@@ -1,15 +1,10 @@
-.body{
-    background-color: antiquewhite;
-}
-.meal-meter-logo{
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
-.nav{
-    background-color: bisque;
-}
+
 .meal-meter-logo{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.body{
+body{
     background-color: antiquewhite;
+}
+nav ul li{
+    list-style: none;display: inline-block;margin-left: 20px;
 }
