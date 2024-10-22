@@ -1,6 +1,14 @@
-.meal-meter-logo{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
+
 .body{
     background-color: antiquewhite;
+}
+.meal-meter-logo{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.nav{
+    background-color: bisque;
+}
+.meal-meter-logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
