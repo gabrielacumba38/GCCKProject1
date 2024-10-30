@@ -1,0 +1,52 @@
+/* Reset some default browser styles */
+body, h1, p, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1.1em;
+    margin: 0 0 20px 0;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1em;
+    color: #2980b9;
+    background-color: #e7e7e7;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Add some responsive design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p, footer {
+        font-size: 0.9em;
+    }
+}
