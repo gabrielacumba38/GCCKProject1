@@ -28,6 +28,7 @@ a{
 }
 header{
     display: flex; position: sticky; top: 0px;
+    background-color: maroon;
 }
 .njit-logo{
     width: 700px; height: 500px; background-color: antiquewhite;
