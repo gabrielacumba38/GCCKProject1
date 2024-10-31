@@ -29,7 +29,7 @@ nav ul li{
     
     
 .njit-logo{
-    height: 5px; width: 7px;
+    height: 5px; width: 7px; display: flex; position: relative; bottom: 10px; right: 10px;
 }
 
     
