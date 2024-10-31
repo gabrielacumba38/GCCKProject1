@@ -30,3 +30,11 @@ a{
 header{
     display: flex; position: sticky; top: 0px;
 }
+.njit-logo{
+    width: 230px; height: 150px; background-color: antiquewhite;
+     background-image: url(njit_logo-removebg-preview.png);
+    background-size: cover;
+}
+div{
+    display: inline-block;
+}
