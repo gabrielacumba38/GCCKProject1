@@ -1,6 +1,5 @@
 body{
-    background-color: antiquewhite; text-align: center; font-family: 'Times New Roman', Times, serif;
-}
+    background-color: antiquewhite; text-align: center; font-family: 'Times New Roman', Times, serif;}
 a{
     text-decoration-color: white;
 }
@@ -29,4 +28,27 @@ a{
 }
 header{
     display: flex; position: sticky; top: 0px;
+}
+.njit-logo{
+    width: 1000px; height: 700px; background-color: antiquewhite;
+     background-image: url(njit_logo-removebg-preview.png);
+    background-size: cover;
+}
+div{
+    display: inline-block;
+}
+.dining-hall{
+    width: 1000px; height: 700px; background-color: antiquewhite;
+    background-image: url(image.png);
+   background-size: cover;
+}
+footer{
+    background-color: maroon;
+    padding: 10px;
+    text-decoration: none white;
+    display: flex; 
+    position: sticky; bottom: 0px;
+    color: white;
+    justify-content: space-evenly;
+
 }
