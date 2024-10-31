@@ -25,15 +25,8 @@ nav ul li{
     list-style: none;display: inline-block; margin-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none; 
-    color:white;
+    color:white;}
     
-    
-.njit-logo{
-    height: 5px; width: 7px; display: flex; position: relative; bottom: 10px; right: 10px;
-}
-
-    
-}
 nav{
     background-color: maroon;
     padding: 10px;
