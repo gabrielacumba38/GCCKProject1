@@ -37,3 +37,10 @@ a{
     text-decoration: none;
     color: white
 }
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    border: white;
+}
