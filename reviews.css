@@ -29,6 +29,7 @@ a{
 }
 header{
     display: flex; position: sticky; top: 0px;
+    background-color: maroon;
 }
 button{
     width: 250px; height: 75px; font-size: medium; font-family: 'Times New Roman', Times, serif; background-color: maroon; color: white;
