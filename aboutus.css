@@ -18,13 +18,15 @@ nav ul li{
 nav{
     background-color: maroon;
     padding: 10px;
-    text-decoration: none white 
+    text-decoration: none white;
+    text-align: center;
     
 }
 a{
     text-decoration: none;
     color: white;
     display: flex; justify-content: space-around;
+    text-align: center;
 }
 header{
     display: flex; position: sticky; top: 0px;
