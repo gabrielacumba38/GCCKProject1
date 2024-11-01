@@ -30,6 +30,34 @@ a{
 header{
     display: flex; position: sticky; top: 0px;
 }
+button{
+    width: 250px; height: 75px; font-size: medium; font-family: 'Times New Roman', Times, serif; background-color: maroon; color: white;
+}
+.review-container{
+    width: 100%; height: 100%; display: flex; flex-direction: column; position: relative; left: 150px;
+}
 .review-1{
-    
+    width: 700px; height: 600px; background-color: maroon;
+}
+.review-2{
+    width: 700px; height: 600px; background-color: black;
+}
+.review-3{
+    width: 700px; height: 600px; background-color: gray;
+}
+.review-4{
+    width: 700px; height: 600px; background-color: pink;
+}
+
+.text-1{
+    width: 700px; height: 300px; display: flex; position: relative; left: 750px; top: -2400px
+}
+.text-2{
+    width: 700px; height: 300px; display: flex; position: relative; left: 750px; top: -2100px
+}
+.text-3{
+    width: 700px; height: 300px; display: flex; position: relative; left: 750px; top: -1800px
+}
+.text-4{
+    width: 700px; height: 300px; display: flex; position: relative; left: 750px; top: -1500px
 }
