@@ -44,7 +44,14 @@ button{
     width: 200px;
     height: 60px;
     border: white;
+    
 }
-h1{
- font-size: xx-large;
+
+
+
+.meal-meter-logo{
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
 }
