@@ -30,8 +30,11 @@ nav ul li{
 nav{
     background-color: maroon;
     padding: 10px;
-    text-decoration: none white 
-    
+    text-decoration: none white;
+    display: flex; position: sticky;
+    text-align: center;
+    justify-content: center;
+
 }
 a{
     text-decoration: none;
@@ -44,7 +47,14 @@ button{
     width: 200px;
     height: 60px;
     border: white;
+    
 }
-h1{
- font-size: xx-large;
+
+
+
+.meal-meter-logo{
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
 }
