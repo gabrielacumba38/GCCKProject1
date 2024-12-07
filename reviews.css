@@ -1,7 +1,7 @@
 /* Color Scheme */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #D2B48C; /* Tan background */
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
 }
 
 h1, h2 {
@@ -13,7 +13,7 @@ h1, h2 {
 }
 
 .bg-light {
-    background-color: #f5f5f5;
+    background-color: antiquewhite;
 }
 
 .bg-white {
