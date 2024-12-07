@@ -55,6 +55,7 @@ h1, h2 {
 /* Review Box */
 #reviews-list {
     margin-top: 30px;
+ 
 }
 
 .review-card {
@@ -99,3 +100,33 @@ h1, h2 {
     transform: scale(1.05);
 }
 
+a{
+    text-decoration-color: white;
+}
+nav{
+    background-color: rgb(128, 24, 24);
+    padding: 10px;
+
+}
+nav ul li{
+    list-style: none;display: inline-block; margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+    color:white;
+  }
+    
+nav{
+    background-color: maroon;
+    padding: 10px;
+    text-decoration: none white 
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex; justify-content: space-around;
+}
+header{
+    display: flex; position: sticky; top: 0px;
+    background-color: maroon;
+}
