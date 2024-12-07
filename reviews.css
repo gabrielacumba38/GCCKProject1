@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2 {
-    color: #800000; /* Maroon */
+    color: #800000; 
 }
 
 .text-maroon {
@@ -35,10 +35,10 @@ h1, h2 {
 .stars {
     display: flex;
     gap: 10px;
-    font-size: 35px;  /* Increase the size of stars */
-    color: #ccc; /* Default color for stars */
+    font-size: 35px;
+    color: #ccc; 
     cursor: pointer;
-    transition: transform 0.3s ease; /* Smooth transition */
+    transition: transform 0.3s ease; 
 }
 
 .star {
@@ -48,8 +48,8 @@ h1, h2 {
 
 .star:hover,
 .star.selected {
-    color: gold; /* Change color to gold on hover or when selected */
-    transform: scale(1.3); /* Enlarge the star on hover */
+    color: gold; 
+    transform: scale(1.3); 
 }
 
 /* Review Box */
