@@ -3,37 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> About Us </title> 
+    <title>About Us</title>
     <link rel="stylesheet" href="aboutus.css"> 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-tan">
     <header>
-        <nav>
-            <ul> 
-                <li><a href="mealmeter.html">Home</a></li>
-                <li><a href="aboutus.html">About us</a></li>
-                <li><a href= "reviews.html">Reviews</a></li>
-                <li><a href="calendar.html">Calendar</a></li>         
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: maroon;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="mealmeter.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reviews.html">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="calendar.html">Calendar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <h1>
-        About us!
-    </h1>
-    <br><br>
-    <div class="container"><p class="paragraph-container"> This website was created by four friends who agreed that the NJIT dining hall food should have ratings to determine which 
-        foods are more appetizing. The goal is for all students, staff, and guests to rate the dining hall food, and over time, 
-        the ratings will accumulate to show which foods are eaten and liked more than others. The ratings will help the staff 
-        identify which dishes to prepare more frequently and which to make less often, reducing waste. They will also assist 
-        students and guests in discovering what food they might potentially enjoy. 
-</p></div>
-  <br><br> 
-     <div class="dining-hall"></div>
-     <div class="njit-logo"></div>
-    <br><br>
-    
-    <footer> 
-        !!! Follow us on instagram @njitmealmeter to be updated about the latest food news at NJIT !!!
+
+    <div class="container py-5">
+        <h1 class="text-center text-maroon mb-4">ABOUT US</h1>
+
+        <div class="text-center">
+            <p class="lead mx-auto" style="max-width: 900px;">
+                This website was created by four friends who agreed that the NJIT dining hall food should have ratings to determine which foods are more appetizing. The goal is for all students, staff, and guests to rate the dining hall food, and over time, the ratings will accumulate to show which foods are eaten and liked more than others. The ratings will help the staff identify which dishes to prepare more frequently and which to make less often, reducing waste. They will also assist students and guests in discovering what food they might potentially enjoy.
+            </p>
+        </div>
+
+        <div class="row text-center my-5">
+            <div class="col-md-6">
+                <div class="dining-hall mb-4"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="njit-logo mb-4"></div>
+            </div>
+        </div>
+    </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer class="bg-maroon text-white py-3">
+        <div class="container text-center">
+            <p>Follow us on Instagram <a href="https://www.instagram.com/njitmealmeter/" target="_blank" class="text-white">@njitmealmeter</a> to stay updated about the latest food news at NJIT!</p>
+        </div>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

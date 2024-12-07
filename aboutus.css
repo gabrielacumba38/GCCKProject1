@@ -1,52 +1,83 @@
-body{
-    background-color: antiquewhite; text-align: center; font-family: 'Times New Roman', Times, serif;
-    font-size:110%;
+/* Color Scheme */
+body {
+    background-color: #D2B48C; 
+    font-family: 'Times New Roman', Times, sans-serif;
 }
-a{
-    text-decoration-color: white;
-}
-nav{
-    background-color: rgb(128, 24, 24);
-    padding: 10px;
 
+h1, h2 {
+    color: #800000; 
 }
-nav ul li{
-    list-style: none;display: inline-block; margin-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none; 
-    color:white;
-  }
-    
-nav{
-    background-color: maroon;
-    padding: 10px;
-    width:2000px;
-    text-decoration: none white;
+
+.text-maroon {
+    color: #800000;
+}
+
+.bg-light {
+    background-color: #f5f5f5;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #800000; 
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #D2B48C !important; 
+}
+
+/* Hero Section */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Dining Hall Image Section */
+.dining-hall {
+    width: 100%;
+    height: 300px;
+    background-color: #D2B48C;
+    background-image: url('njit_logo-removebg-preview.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.njit-logo {
+    width: 100%;
+    height: 300px;
+    background-color: #D2B48C;
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+
+/* Paragraph Container */
+.paragraph-container {
+    font-size: 1.2rem;
+    margin-top: 20px;
     text-align: center;
-    
+    color: #333;
 }
-a{
-    text-decoration: none;
-    color: white;
-    display: flex; justify-content: space-around;
-    text-align: center;
-}
-header{
-    display: flex; position: sticky; top: 0px;
-}
-.njit-logo{
-    width: 700px; height: 500px; background-color: antiquewhite;
-     background-image: url(njit_logo-removebg-preview.png);
-    background-size: cover; 
-}
-div{
-    display: inline-block;
-}
-.dining-hall{
-    width: 700px; height: 500px; background-color: antiquewhite;
-    background-image: url(image.png);
-   background-size: cover;
-}
+
 footer{
     background-color: maroon;
     padding: 10px;
@@ -54,12 +85,5 @@ footer{
     display: flex; 
     position: sticky; bottom: 0px;
     color: white;
-    justify-content: space-evenly;
+    justify-content: space-evenly;}
 
-}
-.container{
-    width: 100%; height: 600px; border-color: maroon; background-color:antiquewhite; color: black; display: flex; position:sticky; left:0px;
-}
-.paragraoh-container{
-    font-size: x-large; margin-top: 500px; display: flex; justify-content: center;
-}
