@@ -31,3 +31,46 @@ header{
     display: flex; position: sticky; top: 0px;
     background-color: maroon;
 }
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Calendar container */
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+/* Individual day styling */
+.day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for days */
+.day:hover {
+    background-color: #dfe6e9;
+}
+
+/* Menu display styling */
+#menuDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}

@@ -116,6 +116,8 @@ nav ul li{
   }
     
 nav{
+    display: flex;
+    justify-content: center;
     background-color: maroon;
     padding: 10px;
     text-decoration: none white 
